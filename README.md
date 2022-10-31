@@ -1,22 +1,5 @@
-# Template Pytorch-Lightning Hydra Mlflow Poetry
+# Praha
 
-
-The code in this repository is based on [pytorch/examples](https://github.com/pytorch/examples/blob/2639cf050493df9d3cbf065d45e6025733add0f4/vae/main.py).
-
-
-## Template Design
-
-![An overview of this template](./.github/images/pytorch-template.001.png)
-
-Configurations written in `yaml` are in `configs` directory.
-You can easily overwrite these configurations through command line arguments.
-
-
-## Instllation
-
-```bash
-poetry install
-```
 
 ## Run Training
 
@@ -36,9 +19,3 @@ poetry run mlflow ui
 # access http://127.0.0.1:5000
 ```
 
-
-## Run Formatter
-
-```bash
-poetry run pysen run format
-```
